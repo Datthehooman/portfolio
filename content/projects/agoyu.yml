@@ -1,0 +1,6 @@
+title: Agoyu Moving Company Website
+description: Frontend development for Agoyu, a moving company platform. Built during internship at Bigin with a team of 8. Focused on Vue.js SPA development with clean component architecture.
+url: "https://agoyu.com"
+tags: ["Vue.js", "UnoCss", "Pinia", "Vite", "Vue-router"]
+date: "2023"
+image: /agoyu.jpg

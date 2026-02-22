@@ -1,0 +1,6 @@
+title: Thư viện điện tử FPoly
+description: A digital library platform for FPT Polytechnic students, supporting online book reading, searching, and borrowing. Built with a team of 12 as the main frontend developer.
+url: "https://thuvientructuyen.vn/"
+tags: ["Nuxt", "Nuxt UI", "Tailwind CSS", "TypeScript", "SSR"]
+date: "2024"
+image: /fpt-e-library.png

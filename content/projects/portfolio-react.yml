@@ -1,0 +1,6 @@
+title: React Portfolio
+description: A personal portfolio website built with ReactJS featuring 3D elements via Three.js, smooth animations, and email contact functionality. A solo project showcasing early React skills.
+url: "https://portfolio-react-git-main-datthehoomans-projects.vercel.app/"
+tags: ["ReactJS", "SCSS", "Three.js", "EmailJS"]
+date: "2022"
+image: /react-portfolio.jpg
