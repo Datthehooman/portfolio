@@ -1,5 +1,6 @@
 <script setup lang="ts">
 const colorMode = useColorMode();
+const config = useRuntimeConfig();
 
 const color = computed(() =>
   colorMode.value === "dark" ? "#020618" : "white",
@@ -18,7 +19,7 @@ useHead({
 });
 
 useSeoMeta({
-  ogImage: "/og-image.jpg",
+  ogImage: `${config.public.siteUrl}/og-image.jpg`,
   twitterImage: "https://ui.nuxt.com/assets/templates/nuxt/portfolio-light.png",
   twitterCard: "summary_large_image",
 });

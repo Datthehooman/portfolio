@@ -18,6 +18,12 @@ export default defineNuxtConfig({
 
   compatibilityDate: "2024-11-01",
 
+  runtimeConfig: {
+    public: {
+      siteUrl: process.env.NUXT_PUBLIC_SITE_URL || "http://localhost:3000",
+    },
+  },
+
   nitro: {
     prerender: {
       routes: ["/"],
